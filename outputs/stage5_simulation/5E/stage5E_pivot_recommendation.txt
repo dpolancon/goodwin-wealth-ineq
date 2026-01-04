@@ -1,0 +1,22 @@
+STAGE 5E PIVOT RECOMMENDATION
+==============================
+n_total_sim_ok: 50
+n_flip_ok: 0
+flip_rate: 0
+robust_survival_med: NA
+share_unbounded: 0
+share_cycle_both: 0
+share_tainted: 1
+share_clamp_hit: 1
+bounded_above_rate: 0
+cycle_above_rate: 0
+
+Triggers:
+C1 (flip sparse): TRUE
+C2 (flip fragile): FALSE
+C3 (unbounded dominant): FALSE
+C4 (cycle both sides dominant): FALSE
+C5 (cycle-first): FALSE
+C5 (clamp dominant): TRUE
+
+RECOMMENDED MODE: repair_numeric_then_retry

@@ -1,0 +1,6 @@
+file,exists
+C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage4_scoring/stage4_scored_candidates.csv,TRUE
+C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage4_scoring/stage4_ranked.csv,TRUE
+C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage4_scoring/stage4_shortlist_top50_GATED.csv,TRUE
+C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage4_scoring/stage4_shortlist.csv,TRUE
+C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage4_scoring/stage4_gate_counts.csv,TRUE

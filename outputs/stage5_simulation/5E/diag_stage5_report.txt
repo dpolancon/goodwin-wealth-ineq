@@ -1,0 +1,21 @@
+STAGE 5 DIAGNOSTICS REPORT
+base_dir: C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage5_simulation
+
+FILES FOUND:
+  5B:  YES  -> C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage5_simulation/5B/stage5B_flip_metrics.csv
+  5B2: NO  -> C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage5_simulation/5B2/stage5B2_expand_local_sweep.csv
+  5C:  YES  -> C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage5_simulation/5C/stage5C_robustness.csv
+  5D:  YES  -> C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage5_simulation/5D/stage5D_ranked.csv
+
+B2 (CYCLE-ONSET) DIAGNOSTICS:
+  notes: No Stage5B2 file found; cannot compute cycle onset diagnostics.
+
+FLIP / HOPF CROSSING DIAGNOSTICS:
+  using: B
+  notes: Flip summary uses Stage5B fields: flip_ok + class_5B (not eigen crossings).
+
+ROBUSTNESS JOIN DIAGNOSTICS:
+  notes: Ranked DOES NOT contain robustness columns (robust_survival / robust_survival_rate). | Wrote augmented ranked with robustness joined: C:/ReposGitHub/goodwin_model/outputs/wealth_goodwin/stage5_simulation/5E/stage5D_ranked_augmented.csv | join_keys=candidate_id | cast_keys_to=character | C_rob_col=survival_rate
+
+CLAMP DIAGNOSTICS:
+  notes: Ranked has no clamp column (clamp_hit/clamp_hits).

@@ -1,0 +1,6 @@
+omega_dir,backbone_ok,n
+too_high,FALSE,321
+nonfinite,FALSE,120
+in_band,FALSE,117
+in_band,TRUE,16
+too_low,FALSE,2
